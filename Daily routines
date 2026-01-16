@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Routines</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#f6b1c3" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(160deg, #fde2e7, #f9c5d1);
+      color: #3a1f2d;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+    }
+    .app {
+      width: 100%;
+      max-width: 420px;
+      padding: 18px;
+    }
+    h1 {
+      text-align: center;
+      font-weight: 800;
+    }
+    .card {
+      background: rgba(255,255,255,0.8);
+      border-radius: 22px;
+      padding: 16px;
+      margin-top: 14px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px;
+      border-radius: 16px;
+      border: none;
+      background: linear-gradient(135deg, #f472b6, #fb7185);
+      color: white;
+      font-size: 15px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <h1>💗 Daily Routines 💗</h1>
+
+    <div class="card">
+      <p><strong>Daily Feed</strong></p>
+      <p>New Kalogeras video dropped. No excuses.</p>
+      <a href="https://www.youtube.com/@thekalogerasisters" target="_blank">Watch</a>
+    </div>
+
+    <div class="card">
+      <p><strong>Hair BFF 💇‍♀️</strong></p>
+      <p>This is messy-cute. Do NOT fix it.</p>
+    </div>
+  </div>
+</body>
+</html>
